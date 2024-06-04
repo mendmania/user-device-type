@@ -16,6 +16,7 @@ export default defineConfig({
     },
   },
   build: {
+    minify: 'esbuild',
     lib: {
       entry: path.resolve(__dirname, 'src/components/index.js'),
       name: 'device-type',
